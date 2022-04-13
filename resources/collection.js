@@ -19,7 +19,7 @@ function Collection(shopify) {
   this.key = 'collection';
 }
 
-assign(Collection.prototype, pick(base, ['get', 'buildUrl']));
+assign(Collection.prototype, pick(base, ['get', 'buildUrl', 'count']));
 
 /**
  * Retrieves a list of products belonging to a collection.
